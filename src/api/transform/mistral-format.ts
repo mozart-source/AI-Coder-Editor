@@ -53,6 +53,7 @@ export function convertToMistralMessages(anthropicMessages: Anthropic.Messages.M
 									},
 								}
 							}
+							//else{}
 							return { type: "text", text: part.text }
 						}),
 					})
