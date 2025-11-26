@@ -25,16 +25,6 @@ import {
 	getGeminiReasoning,
 	getOpenRouterReasoning,
 } from "./reasoning"
-import {
-	type AnthropicReasoningParams1,
-	type OpenAiReasoningParams1,
-	type GeminiReasoningParams1,
-	type OpenRouterReasoningParams1,
-	getAnthropicReasoning1,
-	getOpenAiReasoning1,
-	getGeminiReasoning1,
-	getOpenRouterReasoning1,
-} from "./reasoning"
 
 type Format = "anthropic" | "openai" | "gemini" | "openrouter"
 
